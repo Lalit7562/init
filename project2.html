@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    </style>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik', sans-serif;
+
+    }
+    header {
+        height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(to left, #fff 80%, rgb(41, 186, 212) 20%);
+    }
+
+    .navsection {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to top, #fff 80%,#c3f5ff 20%);
+    }
+
+    .logo {
+        width: 35%;
+        color: #fff;
+        background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+        padding-left: 100px;
+        box-sizing: border-box;
+    }
+    .logo h1{
+        font-size: 1,6rem;
+        text-transform: uppercase;
+        animation: aagepiche 2s linear infinite;
+        animation-direction: alternate;
+    }
+    @keyframes aagepiche{
+        from{padding-left: 40px;}
+        to{padding-right: 40px;}
+    }
+    nav{
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+        font-size: 17px;
+        font-weight: 900;
+        position: relative;
+    }
+    nav a:first-child{
+        color: blue;
+    }
+    nav a::before{
+        content: "";
+        left: 0;
+        top: 20px;
+        position: absolute;
+        width: 0%;
+        height:2px;
+        transition: all .4s linear;
+        border-bottom: 2px solid #4458dc;
+    }
+    nav a:hover::before{
+        width: 100%;
+    }
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+    font-weight: 900;
+}
+.leftside h3{
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.leftside a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+.leftside .btn{
+    /* border: 2px solid #000; */
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+    font-weight: 700;
+    box-shadow: 0 10px 30px rgba(118,85,225,.3);
+    color: #fff;
+}
+.leftside .btn1{
+    /* border: 2px solid #000; */
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+    font-weight: 700;
+    box-shadow: 0 10px 30px rgba(118,85,225,.3);
+    color: #fff;
+}
+.rightside{
+    border-radius: 0% 100% 100% 0% / 100% 99% 1% 0%  ;
+    background-color: red;
+}
+</style>
+<header>
+    <section class="navsection">
+        <div class="logo">
+            <h1>sumit tecnichol</h1>
+        </div>
+        <nav>
+            <a href="">home</a>
+            <a href="">Services</a>
+            <a href="">gallary</a>
+            <a href="">portfolio</a>
+            <a href="">blog</a>
+            <a href="">contact</a>
+        </nav>
+    </section>
+    <main>
+        <div class="leftside">
+            <p>Fast Growing ICO </p>
+            <p>Agency For Blockchain</p>
+            <p>Investers And Founders</p>
+            <h3>Lorem ipsum dolor sit amet consectetur  elit.<br> Eum rerum  iure tempora ea fugiat porro quia,<br> Reprehenderit.</h3>
+            <a href="#" class="btn">Register for the ICO</a>
+            <a href="#" class="btn1">Download </a>
+        </div>
+        <div class="rightside">
+        <img src="img/picArt1.jpg" alt="">
+    </div>
+    </main>
+</header>
+
+</html>
