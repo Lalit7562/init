@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    height: 90vh;
+    width: 100%;
+    background: rgba(111, 66, 193, 0.1);
+    border-bottom-right-radius: 30%;
+    box-shadow: 8px 36px 72px rgb(12 63 201);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,.2);
+    padding: 0 5%;
+    background-color: #ffffff;
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #505050;
+}
+nav ul li a:hover{
+    color: rgb(33, 72, 243);
+}
+nav ul li a:active{
+    color: rgb(33, 72, 243);
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+}
+.text-containor{
+    position:absolute;
+    top: 42%;
+    left: 13%;
+    transform: translate(-13%,-42%);
+}
+.text-containor p:nth-child(1){
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(181, 20, 230);
+    letter-spacing: 2px;
+}
+.text-containor p:nth-child(2){
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(87, 28, 224);
+}
+.text-containor p:nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.text-containor p{
+    line-height: 0;
+    margin: 45px 0 25px;
+}
+.text-containor button{
+    width: 177px;
+    height: 42px;
+    background: #6f42c1;
+    border-color: #6f42c1;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.text-containor button:hover{
+    background-color: rgb(55, 0, 255);
+}
+.model{
+    position: absolute;
+    height: 300px;
+    left: 90%;
+    transform: translate(-90%);
+    top: 30%;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-text h2{
+    font-size: 30px;
+    font-weight: 900;
+    color: #6f42c1;
+}
+.about-text p{
+    margin-top: -8px;
+    color: gray;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.box-1 span img,
+.box-2 span img,
+.box-3 span img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 .heading,
+.box-2 .heading,
+.box-3 .heading{
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+.box-1 p,
+.box-2 p,
+.box-3 p{
+    font-size: 14px;
+    margin-top: -10px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.row-1 img{
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 35px;
+    
+}
+.row{
+    position: absolute;
+    left: 60%;
+    top: 150%;
+}
+.row h2{
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    color: #6f42c1;
+}
+.row p{
+    line-height: 25px;
+    color: gray;
+}
+.row .fa{
+    font-size: 20px;
+    background-color:#6f42c1 ;
+    border-radius: 50%;
+    color: white;
+}
+.row button{
+    width: 147px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #6f42c1;
+    color: #fff;
+    outline: none;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+.row button:hover{
+    background-color:#5b11e6 ;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    background: white;
+    box-shadow: 2px 2px 12px;
+    margin-top: 20px;
+}
+.box-w span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box-w img{
+    height: 50px;
+    width: 50px;
+    margin-right: 72px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.box-w h3{
+    font-size:22px;
+    font-weight: bold;
+}
+.box-w p{
+    color: grey;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+footer{
+    margin-left: 40%;
+    margin-top: -80px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer ul li{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 2px solid white;
+    padding: 5px 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 1.1)
